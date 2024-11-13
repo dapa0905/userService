@@ -37,4 +37,4 @@ echo "> JAR Name: $JAR_NAME"
 # & : &를 맨 끝에 붙이면 프로세스를 백그라운드로 실행한다.
 nohup java -jar \
 -Dspring.config.location=/home/ec2-user/webservice/application-real.yml \
-$REPOSITORY/$JAR_NAME > $REPOSITORY/nohup.out 2>&1 &s
+$REPOSITORY/$JAR_NAME > $REPOSITORY/nohup.out 2>&1 &
